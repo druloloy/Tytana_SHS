@@ -326,8 +326,19 @@ body, html
 {
 	visibility: visible;
 }
+.coreTitle
+{
+	height: auto;
+	width: 100vw;
+	padding: 20px 0px;
+	background-color: darkgreen;
+	font-size: 40px;
+	text-align: center; 
+	border-top: 5px solid #83F52C;
+}
 .coreValues
 {
+	border-top: 5px solid #83F52C;
 	height: 100vh;
 	width: 100vw;
 	background: #f1f1f1;
@@ -348,6 +359,7 @@ body, html
 	background: rgba(0,0,0,.8);
 	width: 50%;
 	text-align: center;
+	transition: 300ms ease;
 }
 .coreValues td:hover
 {

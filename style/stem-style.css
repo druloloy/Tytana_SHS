@@ -8,6 +8,10 @@
 	background-size: 50vw;
 	background-repeat: no-repeat;
 }
+.front a
+{
+	text-decoration: none;
+}
 .front img 
 {
 	height:90vh;
