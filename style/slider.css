@@ -11,7 +11,7 @@
 	height:100vh;
 	position: relative;	
 	animation-name: slide;
-	animation-duration: 33s;
+	animation-duration: 15s;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 	
