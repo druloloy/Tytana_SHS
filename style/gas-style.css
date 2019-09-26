@@ -1,0 +1,54 @@
+#highlight
+{
+	color: #28a745;
+}
+.gasIntro
+{
+	height: 100vh;
+	width: 100vw;
+	background:url('../res/gasbg.jpg');
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: cover;
+}
+.gasIntro h2
+{
+	font-size: 3vw;
+	color: #28a745;
+	padding-top:5vw;
+	padding-left: 5vw;
+}
+.gasIntro p
+{
+	width: 50vw;
+	text-indent: 30px;
+	text-align: justify;
+	font-size: 1.5vw;
+	padding-left: 5vw;
+	color: darkgreen;
+}
+.gasBenefit
+{
+	height: 100vh;
+	width: 100vw;
+	background: #8a795b 
+}
+.gasBenefit h1
+{
+	font-size: 6vw;
+	width: 40vw;
+	padding: 3vw;
+	font-family: verdana;
+}
+.gasBenefit p
+{
+	background-color: #524837;
+	width: 40vw;
+	height: 80vh;
+	text-align: justify;
+	font-size: 2vw;
+	margin-top:-35vw; 
+	padding: 5vw;
+	float: right;
+	text-indent: 30px;
+}

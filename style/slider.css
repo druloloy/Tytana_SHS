@@ -1,0 +1,45 @@
+.slide-container
+{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: #f5ffe4;
+}
+.image-container
+{
+	width:7500px;
+	height:100vh;
+	position: relative;	
+	animation-name: slide;
+	animation-duration: 33s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	
+}
+.slider
+{
+	position: relative;
+	float:left;
+	height: 100vh;
+	width: 100vw;
+}
+.slider img
+{
+	height: 100vh;
+	width: 100vw;
+
+}
+@keyframes slide
+{
+	0%{left: 0vw;}
+	10%{left: 0vw;}
+	20%{left: 0vw;}
+	30%{left: -100vw;}
+	40%{left: -100vw;}
+	50%{left: -100vw;}
+	60%{left: -100vw;}
+	70%{left: -200vw;}
+	80%{left: -200vw;}
+	90%{left: -200vw;}
+	100%{left: 0vw;}
+}

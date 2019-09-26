@@ -1,0 +1,52 @@
+#highlight
+{
+	color: #28a745;
+}
+.abmIntro
+{
+	height: 100vh;
+	width: 100vw;
+	background:url('../res/bgabm.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.abmIntro h2
+{
+	font-size: 3vw;
+	color: #28a745;
+	padding-top:5vw;
+	padding-left: 5vw;
+}
+.abmIntro p
+{
+	width: 50vw;
+	text-indent: 30px;
+	text-align: justify;
+	font-size: 1.5vw;
+	padding-left: 5vw;
+}
+.abmBenefit
+{
+	height: 100vh;
+	width: 100vw;
+	background: #505050; 
+}
+.abmBenefit h1
+{
+	font-size: 6vw;
+	width: 40vw;
+	padding: 3vw;
+	font-family: verdana;
+}
+.abmBenefit p
+{
+	background-color: #181818;
+	width: 40vw;
+	height: 80vh;
+	text-align: justify;
+	font-size: 2vw;
+	margin-top:-35vw; 
+	padding: 5vw;
+	float: right;
+	text-indent: 30px;
+}

@@ -1,0 +1,152 @@
+
+.front
+{
+	height:100vh;
+	width:100vw;
+	background: #fff;
+	background-image: url(../res/shs.jpg);
+	background-size: 50vw;
+	background-repeat: no-repeat;
+}
+.front img 
+{
+	height:90vh;
+	width: 90vmin;
+}
+.intro
+{
+	position: relative;
+	color:darkgreen;
+	width:35vw;
+	height: 25vh;
+	padding: 20px;
+	text-align: justify;
+	text-indent: 30px;
+	left:54vw;
+	font-size: 1.5vmax;
+}
+.strandBtn, .benefitBtn
+{
+	cursor: pointer;
+	position: relative;
+	color:darkgreen;
+	padding-top:25px;
+	height: 7vw;
+	width: 35vw;
+	text-align: center;
+	font-size: 3vw;
+	font-weight: bolder;
+	letter-spacing: 10px;
+	border:5px solid darkgreen;
+	border-radius: 20px;
+	margin-top: 2vh;
+}
+.strandBtn
+{
+	left: 55vw;
+}
+.benefitBtn
+{
+	left: 55vw;
+}
+.benefitBtn:hover,.strandBtn:hover
+{
+	color:lightgreen;
+}
+.stemIntro
+{
+	background: url('../res/stembg2.jpg');
+	background-attachment: fixed;
+	background-position: 100px;
+	height: 100vh;
+}
+.stemIntro h1
+{
+	padding-top: 5vw;
+	padding-left: 5vw;
+	color: lightblue;
+	font-size: 3vw;
+}
+.stemIntro p
+{
+	width: 50vw;
+	text-indent: 30px;
+	text-align: justify;
+	color: white;
+	font-size: 1.5vw;
+	padding-left:5vw; 
+}
+.benefits-stem
+{
+	width:auto;
+	height: auto;
+	background-color: #C5E3BF;
+	color: #000;
+	padding-bottom: 20px;
+}
+.benefits-stem h1
+{
+	font-weight: bolder;
+	color: #F0FFF0;
+	text-transform: uppercase;
+	font-size: 50px;
+	padding: 20px;
+	background: #484D46;
+}
+.benefitsCard-stem h2
+{
+	text-transform: capitalize;
+}
+.benefitsCard-stem p
+{
+	text-indent: 20px;
+}
+.benefitsCard-stem
+{
+	font-size: 20px;
+	position: relative;
+	left: 13%;
+	border:2px solid #111;
+	margin:20px;
+	padding:20px;
+	height: auto;
+	width: 70vw;
+	box-shadow: 5px 5px 10px #111;
+	background-color: #8FBC8F;
+}
+.blankspace
+{
+	height: 30vh;
+	width:100vw;
+	position: relative;
+	background: url('../res/3e.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	filter: blur(20px);
+}
+.contact
+{
+	z-index: 1;
+	position: relative;
+	height: 70vh;
+	width: 100vw;
+	background:url('../res/bgcontact.jpg');
+	background-size: cover;
+	display: inline-flex;
+	box-shadow: inset 0 -200px 200px -200px #fff;
+}
+.contactCard
+{
+	position: relative;
+	top:20%; 
+	border-radius: 10px;
+	padding: 20px;
+	height: 25vh;
+	width: 20vw;
+	background-color: rgba(1,1,1,.8);
+	margin:15px;
+}
+.contactCard h2 
+{
+	color: #00AF33;
+}

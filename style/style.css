@@ -1,0 +1,401 @@
+	
+*
+{
+	margin:0;
+	padding:0;
+}
+body, html
+{
+	background:  #f1f1f1;
+	color:#f1f1f1;
+	font-family: trebuchet ms, verdana, Arial;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+.header
+{
+	height: 15vh;
+	width:100vw;
+	background: #fff; 
+	position: relative;
+}
+.header #logo
+{
+	position: absolute;
+	left: 5%;
+	height:100%;
+	width: 30%;
+
+}
+.header .nav-bar
+{
+	width: 95%;
+	height: 15%;
+	position: absolute;
+	top:5vh;
+}
+.nav-bar ul
+{
+	float: right;
+}
+.nav-bar li:hover .strands
+{
+	display: block;
+}
+.nav-bar ul li 
+{
+	cursor: pointer;
+	display: inline-block;
+	padding: 20px;
+}
+.nav-bar ul a
+{
+	color: #28a745;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 2vw;
+}
+.nav-bar ul a::before 
+{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #006400;
+  position: relative;
+  top: 35px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+.nav-bar ul a:hover::before 
+{
+  width: 100%;
+}
+.nav-bar ul a:hover
+{
+	color: 	#006400;
+}
+#search,#home
+{
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.strands
+{
+	color:#000;
+	z-index: 99;
+	width:150px;
+	background-color: #f1f1f1;
+	position: absolute;
+	text-align: left;
+	border-radius: 5px;
+	top:0;
+	transform: translate(-10%,35%);
+	display: none;
+}
+#strList
+{
+	padding: 10px;
+}
+#strList:hover
+{
+	background: #28a745;
+	cursor: pointer;
+	color: #fff;
+}
+#strands a
+{
+	color:#000;
+	font-size: 18px;
+}
+#strands a::before
+{
+	display: none;
+}
+.nav-bar #strandBtn li:hover .strands
+{
+	display: block;
+}
+.welcome-tytana
+{
+	border-top: 5px solid #83F52C;
+	position: relative;
+	background-image: url('../res/explore.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width:100vw;
+}
+.overlayWelcome
+{
+	position: relative;
+	top: ;
+	height: 100%;
+	width:100%;
+	background-color: rgba(0,0,0,.7);
+}
+#welcome
+{
+	color:#83F52C;
+	cursor: pointer;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	letter-spacing: 5px;
+	font-size: 5vw;
+	font-family: monospace;
+	padding: 20px;
+}
+.welcomeMessage
+{
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+	visibility: hidden;
+}
+.overlayWelcome:hover #welcome
+{
+	visibility: hidden;
+}
+.overlayWelcome:hover .welcomeMessage
+{
+	visibility: visible;
+}
+.tytanaWay
+{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background: #111;
+	background-image: url('../res/tytana.jpg');
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	border-top: 5px solid #83F52C;
+}
+.wayMess
+{
+	display: inline-flex;
+	background-color: rgba(1,1,1,.8);
+	height: 100%;
+}
+.wayMess h2
+{
+	color: #83F52C;
+	font-family: verdana;
+	padding: 30px;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	width:30%;
+	font-size:7vw;
+	border-right: 5px solid #83F52C;
+	text-transform: uppercase;
+}
+.wayMess p 
+{
+	text-indent: 50px;
+	text-align: justify;
+	width: 50%;
+	margin-top: 300px;
+	margin-left:50px; 
+	height: 100%;
+	font-size: 1.5vw;
+}
+.missionXvision
+{
+	height: 100vh;
+	width: 100vw;
+	display: inline-flex;
+	border-top: 5px solid #83F52C;
+	border-top: 5px solid #83F52C;
+	overflow: hidden;
+}
+.overlayVision
+{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(41,74,12,.8);
+	padding-top:30vh; 
+}
+.overlayMission
+{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(13,14,92,.8);
+	padding-top: 30vh;
+}
+.vision
+{
+	height: 100%;
+	width: 50%;
+	background: url('../res/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
+}
+.vision h1
+{
+	margin-left: 2vw;
+	line-height: 80px;
+	font-size: 4vw;
+	text-align: center;
+	color: lightgreen;
+	font-weight: lighter;
+	font-style: italic;
+}
+.vision #bold
+{
+	font-size: 8vw;
+	font-weight: bolder;
+	font-style: normal;
+	color: #ddd;
+}
+.vision p
+{
+	visibility: hidden;
+	position: relative;
+	width: 80%;
+	top: -20%;
+	left:10%;
+	text-align: justify;
+	font-size: 2vw;
+	color:#F0FFF0;
+	font-style: italic;
+	text-indent: 100px;
+}
+.vision:hover .overlayVision h1
+{
+	visibility: hidden;
+}
+.vision:hover .overlayVision p
+{
+	visibility: visible;
+}
+.mission
+{
+	height: 100%;
+	width: 50%;
+	background: url('../res/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0%;
+}
+.mission h1
+{
+	margin-left: 2vw;
+	line-height: 80px;
+	font-size: 4vw;
+	text-align: center;
+	color: lightgreen;
+	font-weight: lighter;
+	font-style: italic;
+}
+.mission #bold
+{
+	font-size: 8vw;
+	font-weight: bolder;
+	font-style: normal;
+	color: #ddd;
+}
+.mission ul
+{
+	visibility: hidden;
+	position: relative;
+	width: 80%;
+	left: 10%;
+	top:-30%;
+	text-align: justify;
+	font-size: 1.5vw;
+	color:#F0FFF0;
+	font-style: italic;
+	list-style-type:circle;
+}
+.mission:hover .overlayMission h1
+{
+	visibility: hidden;
+}
+.mission:hover .overlayMission ul
+{
+	visibility: visible;
+}
+.coreValues
+{
+	height: 100vh;
+	width: 100vw;
+	background: #f1f1f1;
+	background: url('../res/leaf.jpg');
+}
+.coreValues table
+{
+	height: 100%;
+	width: 100%;
+	color:white;
+	border-collapse: collapse;
+	font-size: 35px;
+	font-weight: bolder;
+
+}
+.coreValues td
+{
+	background: rgba(0,0,0,.8);
+	width: 50%;
+	text-align: center;
+}
+.coreValues td:hover
+{
+	cursor: pointer;
+	background: rgba(255,255,255,.1);
+	color:black;
+}
+.footer
+{
+	position: relative;
+	width: 100vw;
+	height:80vh;
+	background-color: #28a745;
+	color:#001100;
+	border-top: 5px solid #83F52C;
+}
+.footer #logo
+{
+	height: 10vh;
+	width:30vw;
+	position: relative;
+	top: 10%;
+	left: 5%;
+}
+.info
+{
+	position: relative;
+	top:10%;
+	left: 5%;
+	width:30%;
+
+}
+.social
+{
+	height: 40%;
+	width: 20%;
+	position: absolute;
+	left: 50%;
+	top:20%;
+	background-color: #080;
+	padding: 20px;
+	color: #fff;
+
+}
+.social a
+{
+	text-decoration: none;
+	color: #fff;
+	margin-top: 20px;
+	font-size: 1.5vw;
+}
