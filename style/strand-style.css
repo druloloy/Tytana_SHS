@@ -1,0 +1,95 @@
+.front
+{
+	height:150vh;
+	width:100vw;
+	background: #fff;
+	background-image: url(../res/shs.jpg);
+	background-size: 50vw;
+	background-repeat: no-repeat;
+}
+
+.front a
+{
+	text-decoration: none;
+}
+.front img 
+{
+	height:90vh;
+	width: 90vmin;
+}
+.intro
+{
+	position: relative;
+	color:darkgreen;
+	width:35vw;
+	height: 25vh;
+	padding: 20px;
+	text-align: justify;
+	text-indent: 30px;
+	left:54vw;
+	font-size: 1.5vmax;
+}
+.strandBtn, .benefitBtn
+{
+	cursor: pointer;
+	position: relative;
+	color:darkgreen;
+	padding-top:25px;
+	height: 5vw;
+	width: 35vw;
+	text-align: center;
+	font-size: 3vw;
+	font-weight: bolder;
+	letter-spacing: 10px;
+	border:5px solid darkgreen;
+	border-radius: 20px;
+	margin-top: 2vh;
+}
+.strandBtn
+{
+	left: 55vw;
+}
+.benefitBtn
+{
+	left: 55vw;
+}
+.benefitBtn:hover,.strandBtn:hover
+{
+	color:lightgreen;
+}
+.blankspace
+{
+	height: 30vh;
+	width:100vw;
+	position: relative;
+	background: url('../res/3e.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	filter: blur(20px);
+}
+.contact
+{
+	z-index: 1;
+	position: relative;
+	height: 70vh;
+	width: 100vw;
+	background:url('../res/bgcontact.jpg');
+	background-size: cover;
+	display: inline-flex;
+	box-shadow: inset 0 -200px 200px -200px #fff;
+}
+.contactCard
+{
+	position: relative;
+	top:20%; 
+	border-radius: 10px;
+	padding: 20px;
+	height: 25vh;
+	width: 20vw;
+	background-color: rgba(1,1,1,.8);
+	margin:15px;
+}
+.contactCard h2 
+{
+	color: #00AF33;
+}
