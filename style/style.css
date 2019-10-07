@@ -18,7 +18,7 @@ body, html
 	height: 15vh;
 	width:100vw;
 	background: #fff; 
-	position:absolute;
+	position: relative;
 }
 .header #logo
 {
@@ -222,14 +222,14 @@ body, html
 {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(41,74,12,.8);
-	padding-top:30vh; 
+	background-color: rgba(255,255,255	,.1);
+	padding-top:30vh;
 }
 .overlayMission
 {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(13,14,92,.8);
+	background-color: rgba(0,0,0,.8);
 	padding-top: 30vh;
 }
 .vision
@@ -334,11 +334,10 @@ body, html
 	background-color: darkgreen;
 	font-size: 40px;
 	text-align: center; 
-	border-top: 5px solid #83F52C;
+	border-top: 5px solid blue;
 }
 .coreValues
 {
-	border-top: 5px solid #83F52C;
 	height: 100vh;
 	width: 100vw;
 	background: #f1f1f1;
