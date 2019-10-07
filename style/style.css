@@ -18,8 +18,6 @@ body, html
 	height: 15vh;
 	width:100vw;
 	background: #fff; 
-	position: fixed;
-	z-index:1000;
 }
 .header #logo
 {
