@@ -19,6 +19,7 @@ body, html
 	width:100vw;
 	background: #fff; 
 	position: relative;
+	z-index:999;
 }
 .header #logo
 {
@@ -209,6 +210,7 @@ body, html
 	height: 100%;
 	font-size: 1.5vw;
 }
+
 .missionXvision
 {
 	height: 100vh;
